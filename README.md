@@ -12,6 +12,10 @@ This repository contains solutions to the Harvest Problem, which involves optimi
 
 - `harvest_genetic.py`: A solution to the Harvest Problem using genetic algorithm.
 
+- `harvest_CSP.py`: A solution to the Harvest Problem using constraint programming.
+
+- `harvest_MIP.py`: A solution to the Harvest Problem using integer linear programming.
+
 - `read_data.py`:  Reads the data text file and returns N, m, M, d, s, e and n.
 
 ## Usage
