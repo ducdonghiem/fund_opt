@@ -1,14 +1,19 @@
 import random
 import itertools
 import time
+import sys
+from read_data import*
 
-N = 8
-n = 5
-m = 10
-M = 14
-d = [6, 8, 3, 1, 5, 7, 2, 4]
-s = [2, 1, 1, 3, 4, 2, 4, 3]
-e = [4, 2, 3, 4, 5, 3, 5, 5]
+data=sys.argv[1]
+N, m, M, d, s, e, n=read_input_file(data)
+
+# N = 8
+# n = 5
+# m = 10
+# M = 14
+# d = [6, 8, 3, 1, 5, 7, 2, 4]
+# s = [2, 1, 1, 3, 4, 2, 4, 3]
+# e = [4, 2, 3, 4, 5, 3, 5, 5]
 
 # N = 20
 # n = 10
