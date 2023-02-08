@@ -2,6 +2,11 @@ import random
 import copy
 import math 
 import time
+import sys
+from read_data import*
+
+data=sys.argv[1]
+N, m, M, d, s, e, n=read_input_file(data)
 
 # N = 20
 # n = 10
@@ -11,13 +16,13 @@ import time
 # s=[2,5,3,1,4,4,5,2,4,3,2,3,2,1,4,5,4,1,2,3]
 # e=[5,9,7,8,6,8,8,7,6,6,6,6,5,7,8,10,8,8,7,6]
 
-N = 8
-n = 5
-m = 10
-M = 14
-d = [6, 8, 3, 1, 5, 7, 2, 4]
-s = [2, 1, 1, 3, 4, 2, 4, 3]
-e = [4, 2, 3, 4, 5, 3, 5, 5]
+# N = 8
+# n = 5
+# m = 10
+# M = 14
+# d = [6, 8, 3, 1, 5, 7, 2, 4]
+# s = [2, 1, 1, 3, 4, 2, 4, 3]
+# e = [4, 2, 3, 4, 5, 3, 5, 5]
 
 def random_harvest(s, e):
     lst = []
